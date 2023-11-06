@@ -25,17 +25,16 @@ footer{
 }
 
 
-.card {
+#card {
+  background-color: #1e1e1e!important;
+  color: white !important;
   animation: imgShadow 2s ease-in-out infinite;
-  background-color: #1e1e1e !important;
-  color: #ffffff !important;
+  padding: 10px !important;
+  block-size: 180px;
 }
 
+
 .column {
-  color: #ffffff !important;
-  margin-top: 50px;
-  margin-right: 40px;
-  margin-left: 40px;
   width: 300px !important;
   height: 200px !important;
 }
