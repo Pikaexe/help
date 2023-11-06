@@ -36,6 +36,8 @@ footer{
   margin-top: 50px;
   margin-right: 40px;
   margin-left: 40px;
+  width: 300px;
+  height: 200px;
 }
 
 @keyframes imgShadow {
