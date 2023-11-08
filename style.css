@@ -16,28 +16,34 @@ p{
   size: 200%;
 }
 
-footer{
+.column {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+} 
+
+#card {
+  background-color: #303030!important;
+  color: white;
+  animation: imgShadow 2s ease-in-out infinite;
+  padding: 10px !important;
+  block-size: auto;
+}
+
+
+
+
+.footer{
    background-color: transparent !important;
+   margin-top: 45% !important;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-
-#card {
-  background-color: #1e1e1e!important;
-  color: white !important;
-  animation: imgShadow 2s ease-in-out infinite;
-  padding: 10px !important;
-  block-size: 180px;
-}
-
-
-.column {
-  width: 300px !important;
-  height: 200px !important;
-}
 
 @keyframes imgShadow {
   0% {
